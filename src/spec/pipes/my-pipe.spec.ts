@@ -1,7 +1,7 @@
-/// <reference path="../../typings/main/ambient/jasmine/jasmine.d.ts" />
+/// <reference path="../../../typings/main/ambient/jasmine/jasmine.d.ts" />
 
 import {it, describe, expect, beforeEach, inject} from 'angular2/testing';
-import {MyPipe} from "./my-pipe";
+import {MyPipe} from "../../pipes/my-pipe";
 
 describe('MyPipe Tests', () => {
     let pipe:MyPipe;

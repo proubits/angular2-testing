@@ -1,8 +1,8 @@
-/// <reference path="../../typings/main/ambient/jasmine/jasmine.d.ts" />
+/// <reference path="../../../typings/main/ambient/jasmine/jasmine.d.ts" />
 
 import {it, describe, expect, beforeEachProviders, inject} from "angular2/testing";
 import {Response, XHRBackend, ResponseOptions, HTTP_PROVIDERS} from "angular2/http";
-import {MyService} from "./my-service";
+import {MyService} from "../../services/my-service";
 import {MockConnection, MockBackend} from "angular2/src/http/backends/mock_backend";
 import {provide} from "angular2/core";
 

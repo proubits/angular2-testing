@@ -1,4 +1,4 @@
-/// <reference path="../../typings/main/ambient/jasmine/jasmine.d.ts" />
+/// <reference path="../../../typings/main/ambient/jasmine/jasmine.d.ts" />
 
 import {
     it,
@@ -9,12 +9,12 @@ import {
     setBaseTestProviders,
     beforeEachProviders
 } from "angular2/testing";
-import {MyList} from "./my-list";
+import {MyList} from "../../comps/my-list";
 import {Component, provide} from "angular2/core";
 import {TEST_BROWSER_PLATFORM_PROVIDERS, TEST_BROWSER_APPLICATION_PROVIDERS} from "angular2/platform/testing/browser";
 import {HTTP_PROVIDERS, XHRBackend, ResponseOptions, Response} from "angular2/http";
 import {MockBackend, MockConnection} from "angular2/src/http/backends/mock_backend";
-import {MyService} from "../services/my-service";
+import {MyService} from "../../services/my-service";
 import "rxjs/add/operator/map";
 
 @Component({
